@@ -3,9 +3,11 @@
 **Análisis de Datos con NumPy, Pandas y Matplotlib**
 
 **Objetivo**
+
 Aplicar los conocimientos de NumPy, Pandas y Matplotlib para analizar un conjunto de datos, realizar cálculos estadísticos y visualizar los resultados mediante gráficos.
 
 **Creación del Dataset**
+
 Crear un conjunto de datos que contenga información de ventas con las siguientes columnas:
 Producto
 Precio
@@ -16,6 +18,7 @@ Convertir estos datos en un DataFrame de Pandas.
 Mostrar el DataFrame completo en consola.
 
 **Manipulación de Datos con Pandas**
+
 Realizar las siguientes operaciones sobre el DataFrame:
 
 Crear una nueva columna llamada Ventas, calculada como:
