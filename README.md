@@ -1,4 +1,4 @@
-#  Análisis de Ventas con Python: Misha Rastrera
+#  Análisis de Ventas con Python
 
 Este proyecto aplica herramientas de análisis de datos en Python para procesar y visualizar información de ventas de productos naturales.
 
