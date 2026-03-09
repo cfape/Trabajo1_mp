@@ -1,8 +1,5 @@
 # Trabajo Final Modulos y Paquetes
 
-# Curso: Módulos y Paquetes para Machine Learning con Python
-# Nombre: Cynthia Farfan Penagos
-# ID: 1640976
 
 ## Análisis de Datos con NumPy, Pandas y Matplotlib
 
