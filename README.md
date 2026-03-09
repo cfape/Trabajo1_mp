@@ -1,79 +1,34 @@
-**Trabajo Final**
+#  Análisis de Ventas con Python: Misha Rastrera
 
-**Análisis de Datos con NumPy, Pandas y Matplotlib**
+Este proyecto aplica herramientas de análisis de datos en Python para procesar y visualizar información de ventas de productos naturales.
 
-**Objetivo**
+## Objetivo
+El propósito de este trabajo es demostrar el uso práctico de las librerías fundamentales de ciencia de datos en Python:
+* **Pandas**: Para la creación, manipulación y filtrado de DataFrames.
+* **NumPy**: Para el cálculo de estadísticas descriptivas (media, desviación estándar, máximos y mínimos).
+* **Matplotlib**: Para la comunicación visual de resultados mediante gráficos.
 
-Aplicar los conocimientos de NumPy, Pandas y Matplotlib para analizar un conjunto de datos, realizar cálculos estadísticos y visualizar los resultados mediante gráficos.
+## Contenido del Análisis
+El dataset incluye información sobre:
+- **Productos:** Agua de Rosas, Shampoo Sólido, Mix Oliva, etc.
+- **Métricas:** Precios, cantidades vendidas y cálculo automático de ingresos totales (Ventas).
+- **Geografía:** Distribución de ventas en ciudades como Lima, Cusco, Trujillo y Huaraz.
 
-**Creación del Dataset**
+## Visualizaciones Incluidas
+El script genera automáticamente tres tipos de gráficos para el análisis:
+1. **Gráfico de Barras:** Comparativa de ventas totales por producto.
+2. **Gráfico de Líneas:** Tendencia de cantidades vendidas por unidad.
+3. **Gráfico de Pastel:** Distribución porcentual de las ventas por ciudad.
 
-Crear un conjunto de datos que contenga información de ventas con las siguientes columnas:
-Producto
-Precio
-Cantidad
-Ciudad
-Convertir estos datos en un DataFrame de Pandas.
+## Tecnologías Utilizadas
+* Python 3.x
+* Pandas
+* NumPy
+* Matplotlib
 
-Mostrar el DataFrame completo en consola.
+## 📋 Conclusiones Destacadas
+* **Producto Estrella:** El *Mix Oliva y Oregano 30 ml* lidera las ventas debido a su alto volumen de unidades.
+* **Mercado Principal:** Lima es la ciudad con mayor volumen de ventas acumulado.
+* **Estrategia:** Se identifica la necesidad de promocionar productos de nicho como la *Pomada de Caléndula* para equilibrar la rotación del inventario.
 
-**Manipulación de Datos con Pandas**
 
-Realizar las siguientes operaciones sobre el DataFrame:
-
-Crear una nueva columna llamada Ventas, calculada como:
-Precio × Cantidad
-
-Mostrar el DataFrame actualizado con la nueva columna.
-
-**Calcular las siguientes estadísticas:**
-
-Promedio de ventas
-Venta máxima
-Venta mínima
-Suma total de ventas
-Filtrado de Datos
-Realizar los siguientes filtros:
-
-Mostrar solo las ventas realizadas en una ciudad específica (por ejemplo: Lima).
-
-Mostrar los productos cuyas ventas sean mayores a 1000.
-
-Mostrar los productos cuya cantidad vendida sea mayor a 5.
-
-**Cálculos con NumPy**
-
-Convertir la columna Ventas del DataFrame en un array de NumPy.
-
-Usar NumPy para calcular:
-
-Media
-Desviación estándar
-Valor máximo
-Valor mínimo
-Mostrar los resultados en pantalla.
-
-**Visualización de Datos con Matplotlib**
-Crear los siguientes gráficos:
-
-1. Gráfico de Barras
-Mostrar las ventas por producto.
-
-2. Gráfico de Línea
-Mostrar la cantidad vendida de los productos.
-
-3. Gráfico de Pastel
-Mostrar la distribución de ventas por ciudad.
-
-**Análisis de Resultados**
-Responder las siguientes preguntas:
-
-¿Qué producto genera mayores ventas?
-
-¿Qué ciudad tiene mayor volumen de ventas?
-
-¿Cuál es el promedio de ventas?
-
-¿Existe mucha variación en las ventas?
-
-¿Qué producto debería promocionarse más según los datos?
